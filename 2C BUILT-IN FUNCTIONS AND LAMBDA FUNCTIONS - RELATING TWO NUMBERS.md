@@ -24,17 +24,20 @@ To write a Python program to check the relation between two numbers — whether 
 ### PROGRAM
 
 ```
+i=int(input())
+j=int(input())
+z=int(input())
 
+f = lambda a, b,c: a+b+c
+
+print(f(i, j,z))
 ```
 
 ### OUTPUT
 
-```
+<img width="842" height="335" alt="image" src="https://github.com/user-attachments/assets/0ff11217-c503-4404-bba2-be78955517df" />
 
-```
 
 ### RESULT
 
-```
-
-```
+Thus, the python code written and executed successfully.
