@@ -4,6 +4,7 @@
 ---
 
 ### AIM  
+
 To write a Python program to print a triangular star pattern using loops.
 
 ---
@@ -25,12 +26,22 @@ To write a Python program to print a triangular star pattern using loops.
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add Your Code Here
+#Reg.No:212223060107
+#Name: Joyce Priscilla R
 
+rows = int(input())
+num = rows
+
+for i in range(rows, 0, -1):
+    for j in range(0, i):
+        print(num, end=' ')
+    print()
 ```
 
 ### OUTPUT
 
+<img width="828" height="598" alt="image" src="https://github.com/user-attachments/assets/cb94906d-0365-4042-9182-f93fae04a229" />
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
